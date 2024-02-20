@@ -38,3 +38,12 @@ __pycache__
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# swift
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
