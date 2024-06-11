@@ -15,7 +15,10 @@ struct ContentView: View {
     VStack {
 //      HelloWorldView()
 //      TextBootCampView()
-      ShapeBootcampView()
+//      ShapeBootcampView()
+//      PickerBootcampView()
+//      NavigationStackBootcamp()
+      ContentUnavailableViewBootcamp()
     }
     .enableInjection()
   }

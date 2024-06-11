@@ -1,10 +1,9 @@
-import Inject
+// import Inject
 import SwiftUI
 
-@available(macOS 12.0, *)
 public struct HelloWorldView: View {
 
-  @ObserveInjection var inject
+  // @ObserveInjection var inject
 
   public init() {}
 
@@ -16,10 +15,10 @@ public struct HelloWorldView: View {
       Text("Hello, world!")
     }
     .padding()
-    .enableInjection()
+    // .enableInjection()
   }
 }
 
-@available(macOS 12.0, *)#Preview{
+#Preview {
   HelloWorldView()
 }

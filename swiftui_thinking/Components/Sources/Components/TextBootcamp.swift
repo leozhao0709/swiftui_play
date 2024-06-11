@@ -1,10 +1,9 @@
-import Inject
+// import Inject
 import SwiftUI
 
-@available(macOS 12.0, *)
 public struct TextBootCampView: View {
 
-  @ObserveInjection var inject
+  // @ObserveInjection var inject
 
   public init() {}
 
@@ -29,10 +28,10 @@ public struct TextBootCampView: View {
       // .background(.indigo)
       // .minimumScaleFactor(0.2)
     }
-    .enableInjection()
+    // .enableInjection()
   }
 }
 
-@available(macOS 12.0, *)#Preview{
+#Preview {
   TextBootCampView()
 }

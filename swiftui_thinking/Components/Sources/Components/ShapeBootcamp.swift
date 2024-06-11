@@ -1,13 +1,11 @@
-import Inject
+// import Inject
 import SwiftUI
 
-@available(macOS 12.0, *)
 public struct ShapeBootcampView: View {
 
-  @ObserveInjection var inject
+  // @ObserveInjection var inject
 
   public init() {}
-
   public var body: some View {
     VStack {
       // Rectangle()
@@ -23,10 +21,10 @@ public struct ShapeBootcampView: View {
           Circle().stroke(Color.red)
         }
     }
-    .enableInjection()
+    // .enableInjection()
   }
 }
 
-@available(macOS 12.0, *)#Preview{
+#Preview {
   ShapeBootcampView()
 }
